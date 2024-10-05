@@ -23,7 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 31
-
+    namespace 'com.example.serial_communication'
+    compileSdk 34
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_9
         targetCompatibility JavaVersion.VERSION_1_9
